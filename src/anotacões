@@ -1,0 +1,39 @@
+base projeto
+
+criar um banco
+banco deve ter: cliente
+cliente deve ter: uma conta(caso crie apenas uma conta) ou uma lista de contas(poupança e corrente)
+conta poupança deve ter: numero da conta e da agencia
+conta corrente, mesma coisa
+
+interação
+
+menu principal
+- mensagem de bem-vindo
+- acessar uma conta
+- criar uma conta
+- voltar
+
+menu acessar uma conta
+- acessar conta corrente
+- acessar conta poupança
+- voltar
+
+conta corrente
+- ver saldo
+- depositar
+- sacar
+- transferir
+- voltar
+
+conta poupança
+- ver saldo
+- depositar
+- sacar
+- transferir
+- voltar
+
+criar uma conta
+- selecionar tipo de conta
+- criar segundo tipo de conta em seguida
+- acessar a conta(operações da conta)
