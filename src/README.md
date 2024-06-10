@@ -1,41 +1,29 @@
-Base projeto
+# Base projeto banco dos devs
 
-Criar um banco
-Banco deve ter: cliente
-cliente deve ter: uma conta(caso crie apenas uma conta) ou uma lista de contas(poupança e corrente)
-conta poupança deve ter: numero da conta e da agencia
-conta corrente, mesma coisa
+### Criando um Banco
 
-Interação
+* Banco deve ter: Cliente
+* Cliente deve ter: Uma conta (caso crie apenas uma conta) ou uma lista de contas (poupança e corrente)
+* Conta poupança deve ter: Número da conta e da agência
+* Conta corrente, mesma coisa de conta poupança.
 
-Menu principal
-- mensagem de bem-vindo
-- acessar uma conta
-- criar uma conta
-- voltar
+## Interação
 
-Menu acessar uma conta
-- acessar conta corrente
-- acessar conta poupança
-- voltar
+### Menu principal
+- Mensagem de bem-vindo
+- Acessar uma conta
+- Criar uma conta
+- Voltar
 
-Conta corrente
-- ver saldo
-- depositar
-- sacar
-- transferir
-- voltar
+### Criar conta
+- Selecionar tipo de conta
+- escolher o nome do titular
 
-Conta poupança
-- ver saldo
-- depositar
-- sacar
-- transferir
-- voltar
+### Acessar conta (Poupança ou corrente)
+- Ver saldo
+- Depositar
+- Sacar
+- Transferir(Entre contas do nosso banco)
+- Voltar
 
-Criar uma conta
-- selecionar tipo de conta
-- criar segundo tipo de conta em seguida
-- acessar a conta(operações da conta)
-
-Menus desenvolvidos visando melhorar a usabilidade da interface de aplicação, no contexto de uma operação bancária simples.
+#### Menus desenvolvidos visando melhorar a usabilidade da interface de aplicação, no contexto de uma operação bancária simples.
